@@ -1,0 +1,83 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
+  
+  .container-fluid{
+    background-color: #0C359E;
+    background-position: center;
+background-size:cover;
+background-repeat:no-repeat;
+margin-bottom: 0; 
+
+
+  }
+
+  .lc-block>div>h2{
+    color: #F6F5F5;
+  }
+
+  .lc-block>div>.lead{
+    color:#F6F5F5 ;
+  }
+
+  .lc-block>.btn{
+    background-color: #EE99C2;
+  }
+
+ 
+  
+  .intro {
+    width: 30%;
+    margin: auto;
+  }
+  .profile > h2 {
+ 
+    text-align: center;
+    color: #EE99C2;
+    font-family: "Montserrat", sans-serif;
+   
+
+  }
+
+  .profile >img{
+    display: flex;
+    border-radius: 50%;
+    margin: auto;
+  }
+
+ .profile>p{
+    
+    padding-bottom: 20px;
+ }
+
+ .profile{
+    background-color: #FFE3CA;
+    margin-top: 0; /* This ensures no top margin is causing the gap */
+    padding-bottom: 20px;
+    
+ }
